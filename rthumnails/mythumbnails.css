@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name: Piano's thumbnails
+Author: Piano Hagens
+Author URI: http://www.pianohagens.com/
+Description: This is my templates for Web210 WordPress class.
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=cccccc" style="width:100%"
+tags: 
+Version: 1.0
+*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+	
+	}
+
+body {
+    font-family:cursive;
+    margin: 10px auto;
+    width: 90%;
+    background-color: #f4f4f4;	
+	}
+
+h1 {
+	font-size: 20px;
+	}
+	
+h2 {
+	font-size: 18px;
+	}
+	
+h3 {
+	font-size: 16px;
+	}
+	
+p {
+	font-size: 14px;
+	}
+a {
+	font-size: 14px;	
+	}
+	
+a:hover, li:hover {
+	opacity: .7;	
+	}
+li {
+    list-style-type: none;
+    font-size: 14px;
+}
+	
+img {
+	
+	}
+	
+h2.title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 36px;
+}
+
+.thumbnails_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -40px 0;
+}
+
+.thumbnails_wrap .thumbnails_item {
+  width: -webkit-calc(100%/4);
+  width: calc(100%/4);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.thumbnails_wrap .thumbnails_item h6 {
+  margin-bottom: 10px;
+}
+
+.thumbnails_wrap .thumbnails_item p {
+  margin: 0;
+}
+
+
+
+@media (max-width: 991px) {
+}
+/* Tablet Screen Set to 767px or Below  */
+@media (max-width: 767px) {
+    
+h2.title {
+    margin-bottom: 40px;
+}
+
+.thumbnails_wrap {
+    margin: -20px 0;
+  }
+
+ .thumbnails_wrap .thumbnails_item {
+    width: -webkit-calc(100%/2);
+    width: calc(100%/2);
+    padding: 20px 1px;
+  }    
+	
+}
+
+/* Mobile Screen Set to 414px or Below  */
+@media (max-width: 414px) {	
+
+}

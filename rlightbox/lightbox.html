@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Lightbox</title>
+
+<!-- Begin Meta -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- End Meta -->
+
+<!-- Begin Styles -->
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="all" />
+<!-- End Styles -->
+</head>
+<body>
+
+<!-- Begin Middle -->
+<div id="middle"> 
+    <h2 class="title">My Lightbox</h2>
+<!------------------Beginning Lightbox--------------------------------------------------->
+<div class="row"><!---Beginning in row--->
+   <!---Beginning column total=4 --->  
+  <div class="column">
+    <img src="http://fpoimg.com/1045x576?text=Lightboximage 1&bg_color=cccccc" style="width:100%" onclick="openLightbox();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="http://fpoimg.com/1045x576?text=Lightboximage 2&bg_color=cccccc" style="width:100%" onclick="openLightbox();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="http://fpoimg.com/1045x576?text=Lightboximage 3&bg_color=cccccc" style="width:100%" onclick="openLightbox();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="http://fpoimg.com/1045x576?text=Lightboximage 4&bg_color=cccccc" style="width:100%" onclick="openLightbox();currentSlide(4)" class="hover-shadow cursor">
+  </div>   
+   <!---end column total=4 ---> 
+</div><!---end in row--->
+<!---Beginning lightbox--->
+    
+<div id="myLightbox" class="lightbox">
+  <span class="close cursor" onclick="closeLightbox()">&times;</span>
+  <div class="lightbox-content">
+<!---Beginning storage of image_total 8--->
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightbox image 1&bg_color=cccccc" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightbox image 2&bg_color=cccccc" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightbox image 3&bg_color=cccccc" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightboximage 4&bg_color=cccccc" style="width:100%">
+    </div>
+   
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightboximage 5&bg_color=cccccc" style="width:100%">
+    </div>
+      
+       
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightboximage 6&bg_color=cccccc" style="width:100%">
+    </div>
+      
+       
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightboximage 7&bg_color=cccccc" style="width:100%">
+    </div>
+      
+       
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="http://fpoimg.com/1045x576?text=Lightboximage 8&bg_color=cccccc" style="width:100%">
+    </div>
+ <!---end storage of image--->     
+      
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div> 
+
+<!---beginning show 4 in lightbox--->
+    <div class="column">
+      <img class="wp_pic cursor" src='http://fpoimg.com/1045x576?text=Lightboximage 1&bg_color=cccccc' style="width:100%" onclick="currentSlide(1)" alt="AAAAA">
+    </div>
+    <div class="column">
+      <img class="wp_pic cursor" src='http://fpoimg.com/1045x576?text=Lightboximage 2&bg_color=cccccc' style="width:100%" onclick="currentSlide(2)" alt="BBBBB">
+    </div>
+    <div class="column">
+      <img class="wp_pic cursor" src="http://fpoimg.com/1045x576?text=Lightboximage 3&bg_color=cccccc" style="width:100%" onclick="currentSlide(3)" alt="CCCCC">
+    </div>
+    <div class="column">
+      <img class="wp_pic cursor" src="http://fpoimg.com/1045x576?text=Lightboximage 4&bg_color=cccccc" style="width:100%" onclick="currentSlide(4)" alt="DDDDD">
+    </div>
+<!---end show 4 in lightbox--->     
+  </div> <!---end lightbox-content--->
+</div><!---end lightbox--->    
+<!-------------------End Lightbox---------------------------------------------------->    
+</div>
+<!-- End Middle -->  
+
+<!-- Begin Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="scripts/lightbox.js"></script>
+<!-- End Scripts -->
+
+</body>
+</html>

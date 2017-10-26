@@ -1,0 +1,113 @@
+/* NAVIGATION ul.menu-wireframemenu-container*/
+	#toggle {
+		display: none;
+	}
+#navigation.menu-wireframemenu-container {
+        width: 100%;
+		margin: 2px auto;
+        clear:both;
+        background-color:#7ba251;
+        position: relative;
+        display: inline-block;
+	}
+	
+	#menu-wireframemenu {
+		height:60px; 
+		max-width:1380px;
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+		}
+ /*#menu-wireframemenu li.menu-item-152, /*home-491*/
+ /*#menu-wireframemenu li.menu-item-82, /*about-138*/
+ /*#menu-wireframemenu li.menu-item-93, /*resources-135*/
+/*#menu-wireframemenu li.menu-item-107 /*Contact*/
+
+ /*#menu-wireframemenu li.menu-item-114,/*Getting Start-137*/
+ /*#menu-wireframemenu li.menu-item-81, /*Navigation Services-143*/
+    /*{display: none;}  */ 
+	#menu-wireframemenu > li {
+		width:16.5%;
+		padding: 20px 2px;
+		vertical-align: middle;
+		display: inline-block;
+		position: relative;
+		}
+	#menu-wireframemenu li.menu-item-143{width:22%;}
+	#menu-wireframemenu li.menu-item-491 {display: none;}
+
+	    #menu-wireframemenu li:hover{
+      	background-color: #cccccc;
+    }
+		#menu-wireframemenu > li > a {
+		color:#ffffff;
+		display:block;
+        text-transform: uppercase;
+			}
+			
+		#menu-wireframemenu > li > a:hover{
+			color: #000000;
+			}
+	
+	#menu-wireframemenu ul.sub-menu {
+        text-decoration: none;
+		display: none;
+		position: absolute;
+		background-color: #cccccc;		
+		z-index: 5000;		
+	}
+		#menu-wireframemenu li:hover ul.sub-menu {
+        margin-left: 0;
+        margin-top: 20px;
+		display: block;
+        width: 99.5%;
+	}
+	#menu-wireframemenu ul.sub-menu li {
+		display: block;
+		border: 1px solid #999999;
+        position: relative;
+		text-transform: uppercase;
+        white-space: nowrap;
+		}		
+	#menu-wireframemenu ul.sub-menu li a {
+		padding: 16px 2px;
+        display: block;
+		color: #E08032;
+    	background-color: #4a4a4a;
+		}
+
+	#menu-wireframemenu ul.sub-menu li a:hover{color:#ffffff;}
+/* Desktop Screen Set to 1024px or Below */
+
+
+/* Desktop Screen Set to 1230px or Below */
+@media screen and (max-width: 1230px) {
+	#menu-wireframemenu li.menu-item-137{
+		min-width:155px;
+	}
+
+	#menu-wireframemenu li.menu-item-143{
+		min-width:180px;
+	}
+	
+	#menu-wireframemenu li.menu-item-93{
+		min-width:130px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+
+}
+/* Tablet Screen Set to 769px or Below */
+@media screen and (max-width: 769px) {    
+#navigation.menu-wireframemenu-container {
+    overflow: hidden;   
+}
+
+#toggle{display: block;}
+
+@media screen and (max-width: 600px) {     
+ 
+
+}

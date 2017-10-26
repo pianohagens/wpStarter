@@ -1,0 +1,425 @@
+/* Global */
+
+html {font-family: sans-serif; }
+body {
+	line-height:21px;
+	color: #3e3e3e;
+	overflow-x:hidden;
+}
+h6{
+    margin-top: 5px;
+    padding: 15px auto;
+       font-size: 20px;
+    line-height: 1.38em;
+    color: white;
+}
+h7{
+    padding: 10px auto;
+       font-size: 18px;
+    line-height: 1.38em;
+    color: white;
+}
+p{
+    padding: 10px;
+   font-size: 18px;
+    line-height: 1.38em;
+}
+::selection {
+    background: lightyellow;	
+	color:#fff;
+}
+::-moz-selection {
+	background: green;/* Firefox */
+	color:#fff;
+}
+ul.det_inf li, ul.det_inf li a {
+text-decoration: none !important;
+color: #333333 !important;
+font-weight: bold;
+}
+li img {
+	max-width: 95%;
+}
+a {
+	padding: 5px;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .6;
+}
+
+li {
+  padding-bottom:10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.fright{
+    float:right;
+}
+.fleft{float:left;
+}
+
+.overflow_hidden {overflow-x:hidden;}
+
+/* Navigation */
+#undefined-sticky-wrapper {position:relative;height:0 !important;}
+/* General Slides #3e3e3e*/ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	padding:0;
+}
+
+
+h2 {
+	margin:40px 0 13px;
+	padding:10px 20px;	
+	text-align:center;
+	font-style:normal;
+	background:none;	
+	font-size: 68px;
+	line-height: 86px;
+	color:#3e3e3e;	
+}
+
+h3 {
+	margin:0;
+	padding:40px 0 32px 0;	
+	text-align:center;	
+	font-weight:800;
+	font-size:32px;
+	font-style:normal;
+	line-height:36px;
+	color:#3e3e3e;
+}
+
+h4 {
+	margin:0;
+	padding:15px 0 15px;
+	text-transform:none;
+	text-align:left;
+	font-weight:400;
+	font-size:28px;
+	font-style:normal;
+	line-height:36px;
+	color:#3e3e3e;
+}
+
+/* ____________________________________ Slide 4 ____________________________________ */ 
+#slide4 {
+	background:url(../images/notepaper.png) repeat;
+	width:100%;
+	padding:36px 0 39px;
+}
+
+.educ_block {
+	margin:7px 0 24px;
+	padding:0 0 0 30px;
+	border-left:3px solid green;
+	color:#797979;
+}
+.educ_block p {
+	padding:0 0 10px;
+	text-transform: none;
+		
+	font-size:18px;
+	line-height:1.3em;
+	color:#3e3e3e;
+}
+
+/* _________________ SKILLS ________________ */
+#skills_block{
+    width: 95%;
+    
+}
+#skills_block p {
+	padding:0 0 7px 0;
+	
+font-size: 16px;
+    line-height: 1.2em;
+	color:#808080;
+}
+#skills_block p b{
+	font-size: 16px;
+	color:#3e3e3e;
+}
+#skills_block li {
+	background:#ddd;
+	width:95%;
+	height:13px;
+	margin-bottom:15px;
+}
+/* _________________ ANIMATED BOOTSTRAP ________________ */
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-ms-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+/* ________________ //ANIMATED BOOTSTRAP _______________ */
+
+.skill1 {width:60%;
+}
+.skill2 {width:80%;
+}
+.skill3 {width:45%;
+}
+
+
+/* _________________________ //SKILLS _______________________ */
+.progress {
+  overflow: hidden;
+  height: 13px;
+  margin-bottom: 16px;
+  background-color: #ddd;
+}
+.progress .bar {
+  width: 0%;
+  height: 100%;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  background-color: #0e90d2;
+  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+  background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+  background-image: -o-linear-gradient(top, #149bdf, #0480be);
+  background-image: linear-gradient(to bottom, #149bdf, #0480be);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: width 0.6s ease;
+  -moz-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+}
+.progress-striped .bar {
+  background-color: green;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  -o-background-size: 15px 15px;
+  background-size: 15px 15px;
+}
+.progress.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -moz-animation: progress-bar-stripes 2s linear infinite;
+  -ms-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-danger .bar,
+.progress .bar-danger {
+  background-color: #599959;
+  background-image: -moz-linear-gradient(top, #5d995e, #5eb95e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5d995e), to(#5eb95e));
+  background-image: -webkit-linear-gradient(top, #5d995e, #5eb95e);
+  background-image: -o-linear-gradient(top, #5d995e, #5eb95e);
+  background-image: linear-gradient(to bottom, #5d995e, #5eb95e);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffc43c35', GradientType=0);
+}
+.progress-danger.progress-striped .bar,
+.progress-striped .bar-danger {
+  background-color: #5d995e;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-success .bar,
+.progress .bar-success {
+  background-color: #5eb95e;
+  background-image: -moz-linear-gradient(top, #62c462, #57a957);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
+  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
+  background-image: -o-linear-gradient(top, #62c462, #57a957);
+  background-image: linear-gradient(to bottom, #62c462, #57a957);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0);
+}
+.progress-success.progress-striped .bar,
+.progress-striped .bar-success {
+  background-color: #62c462;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #4bb1cf;
+  background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -o-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: linear-gradient(to bottom, #5bc0de, #339bb9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff339bb9', GradientType=0);
+}
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-warning .bar,
+.progress .bar-warning {
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+}
+.progress-warning.progress-striped .bar,
+.progress-striped .bar-warning {
+  background-color: #fbb450;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+/* Computer */
+.grid_7 { width: 57.5%; } 
+.grid_12 { width: 100%; } 
+.grid_7,
+.grid_12 {
+	margin: 0 20px 20px 0;
+	float: left;
+	display: block;
+}
+.container{
+	width: 1000px;
+	max-width: 1000px;
+	margin: auto;
+	
+}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{position:relative;z-index:99;clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {	
+    	.jcarousel-skin-tango .jcarousel-item {
+    width:315px;
+}	
+	.gallery-list {margin-left:115px;}
+/* _____________ menu ______________ */
+	.navigation li {margin-left:20px;}
+/* ____________ //menu _____________ */
+	
+	.container { width: 724px; }
+	.container .alpha        { margin-left: 0; margin-right: 5px; }
+	.container .respond_pad {padding-right:20px;}
+	.grid_7 { width: 414px; }
+	.grid_12 { width: 724px; }
+}
+
+@media only screen and (max-width: 766px) {
+/* _______ RESPONS_MENU _________ */      
+
+.jcarousel-skin-tango .jcarousel-item {
+    width:300px;
+} 	
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+  .jcarousel-skin-tango .jcarousel-item {
+    width:360px;
+            
+}
+	.grid_7,
+	.grid_12 {width:420px;}	
+	.fright{float:none;}
+	.fleft{float:none;}	
+}
+
+@media screen and (max-width : 479px) {	
+	.jcarousel-skin-tango .jcarousel-item {
+    width:330px;
+}
+    .jcarousel-skin-tango .jcarousel-clip {
+   margin: 1px 5px 1px 1px;
+   padding:1px 5px 1px 1px;
+}
+    
+	h2 {font-size:30px;line-height:10px;margin:0;}
+	h4 {font-size:22px;line-height:10px;}
+    p{ padding: 10px;}
+	
+	.educ_block p {font-size:16px;}	
+
+/* ____________ //menu _____________ */	
+	.container { width: 300px; }	
+	.grid_7,
+	.grid_12 {
+		width:300px;
+	}	
+	.fright{float:none;}
+	.fleft{float:none;}
+}
+
+@media screen and (max-width : 399px) {		
+	.container { width: 295px; }
+
+	
+}
+

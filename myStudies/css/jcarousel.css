@@ -1,0 +1,115 @@
+#jcarousel {margin-top:17px; 
+}
+#mycarousel li p {
+	float:left;
+    font-size: 16px;    
+}
+#mycarousel li img {
+	float:left;
+	margin:0 15px 10px 0;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal { 
+    width:  100%;
+    padding: auto 0;
+    margin: auto 0;
+}
+.jcarousel-skin-tango {
+    overflow: hidden;   
+   margin: 5px;
+   padding: 5px;border: 2px solid green;
+}
+.jcarousel-skin-tango, .jcarousel-clip-horizontal {
+    margin:0 auto;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    position:relative; border: 2px solid yellow; 
+    padding: 5px;
+    width:315px;
+}
+
+
+/* ____________________ Buttons ____________________ */
+
+#jcarousel .jcarousel-prev::before {
+    content: '\276e';
+ 	position: absolute;
+    left: -5px;
+	top: 100px;
+    color: green;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+
+#jcarousel .jcarousel-next::after {
+    content: '\276f';
+    position: absolute;
+    right: -8px;
+	top: 100px;
+    color: green;
+    font-size: 20px;
+    cursor:pointer;
+    
+
+}
+#jcarousel .jcarousel-next:hover,
+#jcarousel .jcarousel-prev:hover {
+opacity:0.48;
+}
+
+/* Computer */
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;border: 2px solid blue;
+}
+.grid_12 { 
+    width: 98%; 
+	margin: auto;
+	display: block;border: 2px solid green;
+}
+.clearfix:after{
+    position:relative;
+    z-index:99;
+    clear:both;
+    content:'\276f';
+    display:block;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0
+}
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+    .jcarousel-skin-tango .jcarousel-item {
+     border: 2px solid purple;
+    width:310px;
+}
+}
+@media (max-width: 766px) {
+    .jcarousel-skin-tango .jcarousel-item {width:330px;    border: 2px solid red;}
+}
+@media (max-width: 424px) {	
+.jcarousel-skin-tango .jcarousel-item {width:380px; border: 2px solid orange; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
